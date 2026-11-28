@@ -52,6 +52,11 @@
   .similar a{display:block;border-radius:8px;overflow:hidden;border:1px solid var(--card);}
   .similar-title{color:var(--white);text-align:center;margin-bottom:6px;}
   .similar img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;}
+   #rekomenduem-slot{min-height:0;}
+  #rekomenduem-slot:not(.loaded){display:none;}
+  .rekomenduem{display:grid;grid-template-columns:repeat(auto-fit,200px);
+           justify-content:center;gap:12px;padding:10px 0 40px;}
+  .rekomenduem-title{color:var(--white);text-align:center;margin-bottom:6px;}
   footer{border-top:1px solid var(--card);padding:30px 0 50px;text-align:center;
          font-size:.9rem;color:var(--cast);}
   footer a{color:var(--silver);text-decoration:none;margin:0 10px;}
@@ -115,6 +120,9 @@
     <a href="/veshalka-4.html"><img src="/img/gallery/veshalka/veshalka-4.jpg" alt="Настенная вешалка с крючками" loading="lazy"></a>
    <!-- <a href="/veshalka-5.html"><img src="/img/gallery/veshalka/veshalka-5.jpg" alt="Вешалка с полкой из стальных труб" loading="lazy"></a>-->
   </div>
+  <section class="wrap">
+  <div id="rekomenduem-slot"></div>
+</section>
 </section>
 
 <footer class="wrap">
@@ -160,5 +168,7 @@
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://cdn-ru.bitrix24.ru/b38494124/crm/site_button/loader_2_np1k3a.js');
 </script>
+  
+<script src="/rekomenduem-loader.js"></script>
 </body>
 </html>
