@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tricky-pipe.ru/</loc>
-    <lastmod>2026-11-27</lastmod>
+    <lastmod>2026-11-28</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -21,13 +21,23 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tricky-pipe.ru/derzhately-ruleona.html</loc>
-    <lastmod>2026-11-27</lastmod>
+    <loc>https://tricky-pipe.ru/derzhateli-dlya-rulonov.html</loc>
+    <lastmod>2026-11-28</lastmod>
     <priority>0.7</priority>
   </url>
     <url>
     <loc>https://tricky-pipe.ru/derzhately-polotenets.html</loc>
     <lastmod>2026-11-27</lastmod>
     <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://tricky-pipe.ru/veshalki.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://tricky-pipe.ru/veshalka-1.html</loc>
+    <lastmod>2026-11-28</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
