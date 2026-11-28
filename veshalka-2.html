@@ -24,7 +24,9 @@
 
   .photo-main{text-align:center;padding:20px 0 0;}
   .photo-main img{max-width:100%;max-height:70vh;border-radius:8px;cursor:zoom-out;}
-  .thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;padding:12px 0 30px;}
+    .thumbs{display:grid;grid-template-columns:repeat(auto-fit,120px);
+          justify-content:center;gap:10px;padding:12px 0 30px;}
+
   .thumbs img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;
               border-radius:6px;cursor:pointer;border:1px solid var(--card);}
   .thumbs img:hover{border-color:var(--silver);}
@@ -48,6 +50,9 @@
   .chat-hint{margin-top:6px;font-size:.95rem;color:var(--cast);}
   .similar{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;padding:10px 0 40px;}
   .similar a{display:block;border-radius:8px;overflow:hidden;border:1px solid var(--card);}
+    .similar{display:grid;grid-template-columns:repeat(auto-fit,200px);
+           justify-content:center;gap:12px;padding:10px 0 40px;}
+  .similar-title{color:var(--white);text-align:center;margin-bottom:6px;}
   .similar img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;}
   footer{border-top:1px solid var(--card);padding:30px 0 50px;text-align:center;
          font-size:.9rem;color:var(--cast);}
@@ -103,7 +108,7 @@
 </section>
 
 <section class="wrap">
-  <h2 style="color:var(--white);">Похожие модели</h2>
+  <h2 class="similar-title">Похожие модели</h2>
   <div class="similar">
     <a href="/veshalka-1.html"><img src="/img/gallery/veshalka/veshalka-1.jpg" alt="Вешалка из стальных труб, артикул 1615" loading="lazy"></a>
     <!-- ссылки на ещё не созданные страницы — раскомментировать после их появления
